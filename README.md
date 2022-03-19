@@ -1,2 +1,3 @@
 # PI-P_Chess-Pieces_Detection
 This is an OpenCV project in Python for an image processing course.
+The project is intended to read a photo of a digital chess table (eg: you play online chess and take a photo of the board with your phone) then it tries to search the lines of the chess table to be able to correct perspective and crop only the board. After that, the program finds all the chess squares corners and for each corner tries to detect if there is piece or not and what piece it is. Then, it will open a new browser tab on lichess.org with the result using FEN code. The main problem of the program is that is not very good at recognizing the pieces.
